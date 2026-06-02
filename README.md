@@ -19,10 +19,8 @@ Pipeline: **Source → Solver → Surface**.
 ## Requirements
 
 - **Recommended: Houdini 21.0** — the HDAs are authored and saved in build **21.0.671**.
-- **Minimum: Houdini 19.5** for the core **Source**, **Solver**, and **Surface** HDAs. A compatibility audit found they rely only on standard, long-supported nodes (`scatter::2.0`, `remesh::2.0`, `measure::2.0`, `popsolver::2.0`, `particlefluidsurface`, standard VDB SDF nodes) and backward-compatible VEX/Python — no version-specific dependencies.
-- The optional **Wetmap** component (if included) requires **Houdini 21.0 or newer**: it is built on the Copernicus (COP) network (`rasterizegeo`, `opencl`, `sopimport`), which does not exist in earlier versions.
-
-> Files are saved in 21.0.671, so opening them in 19.5 / 20.0 may show a "created in a newer version" notice — that's expected; the node content itself is compatible.
+- **Minimum: Houdini 19.5** for the core **Source**, **Solver**, and **Surface** HDAs.
+- The optional **Wetmap** component (if included) requires **Houdini 21.0 or newer**.
 
 ## Install
 
