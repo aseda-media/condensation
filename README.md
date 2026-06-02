@@ -2,7 +2,7 @@
 
 A Houdini condensation-droplet toolset by **Aseda Media**.
 
-Condensation is a set of three Houdini Digital Assets (HDAs) that build, simulate, and mesh realistic condensation droplets on a collision surface.
+Condensation is a set of Houdini Digital Assets (HDAs) that build, simulate, and mesh realistic condensation droplets on a collision surface.
 
 > ℹ️ **Distributed as black-box (locked) HDAs.** The internals are not editable — drive the look through the exposed parameters.
 
@@ -13,6 +13,7 @@ Condensation is a set of three Houdini Digital Assets (HDAs) that build, simulat
 | **am_Condensation_Source** | Builds the initial droplet source: a static, sim-ready point distribution on a collision surface — where droplets exist, how large they start, which points can release, and the attributes the Solver needs (pinning, delay, class). |
 | **am_Condensation_Solver** | Animates the source points through release, sliding, absorption, trails, and falling. Owns motion and state. |
 | **am_Condensation_Surface** | Builds the final renderable geometry from Solver points: VDB / particle-fluid meshing, contact cutting, sag, mist, and wetmap output. |
+| **am_Condensation_Wetmap** | Generates a wetmap — a wetness texture from where the droplets have been — for shading and rendering. *(Optional, requires Houdini 21.0+.)* |
 
 Pipeline: **Source → Solver → Surface**.
 
