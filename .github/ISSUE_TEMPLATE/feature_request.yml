@@ -11,6 +11,7 @@ body:
         - am_Condensation_Source
         - am_Condensation_Solver
         - am_Condensation_Surface
+        - am_Condensation_Wetmap
         - New / cross-cutting
     validations:
       required: true
