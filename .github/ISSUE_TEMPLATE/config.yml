@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & show-and-tell
+    url: https://github.com/aseda-media/condensation/discussions
+    about: For "how do I…" questions, setup help, and sharing results. Bugs and feature requests go in Issues.

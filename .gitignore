@@ -1,0 +1,23 @@
+# Houdini Digital Assets are distributed via GitHub Releases as black-box HDAs,
+# never committed into the repo tree.
+*.hda
+*.hdalc
+*.otl
+*.otllc
+
+# Houdini scene / backup cruft
+backup/
+*.hip
+*.hiplc
+*.hipnc
+*.hip.bak
+*.rat
+hou.bin
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/

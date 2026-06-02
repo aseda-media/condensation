@@ -1,0 +1,58 @@
+name: Bug report
+description: Something in the Condensation HDAs isn't working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report! Please fill in the details below so the issue can be reproduced quickly.
+  - type: dropdown
+    id: hda
+    attributes:
+      label: Which HDA?
+      options:
+        - am_Condensation_Source
+        - am_Condensation_Solver
+        - am_Condensation_Surface
+        - Not sure / multiple
+    validations:
+      required: true
+  - type: input
+    id: hda_version
+    attributes:
+      label: HDA version
+      placeholder: "e.g. Surface 1.4"
+    validations:
+      required: true
+  - type: input
+    id: houdini
+    attributes:
+      label: Houdini build
+      placeholder: "e.g. 21.0.671"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you saw versus what you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Create ...
+        2. Set parameter ...
+        3. Cook frame ...
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots / clip
+      description: Drag images or a short video here. A node screenshot plus the viewport helps a lot.
+    validations:
+      required: false
