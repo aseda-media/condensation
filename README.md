@@ -47,6 +47,8 @@ An example setup scene is included in [`scene/`](scene/):
 - `Setup_Scene.hiplc` — a simple Houdini Indie setup scene.
 - `geo/Can.obj` — the sample collision/support model used by the scene.
 
+> The scene is saved as `.hiplc` (Houdini Indie / Limited Commercial), so it opens in Houdini Indie or a commercial license. Houdini **Apprentice** cannot open `.hiplc` files.
+
 ## Basic workflow
 
 1. Create or import the collision/support surface you want droplets to form on.
