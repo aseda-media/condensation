@@ -14,6 +14,11 @@ backup/
 *.rat
 hou.bin
 
+# Public example scene files are intentionally included.
+!scene/
+!scene/**
+scene/backup/
+
 # OS / editor
 .DS_Store
 Thumbs.db
