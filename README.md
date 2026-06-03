@@ -38,7 +38,7 @@ Pipeline: **Source → Solver → Surface → Wetmap**.
 
 Watch the setup tutorial on YouTube: **https://youtu.be/E2IATNLHncA**
 
-It covers installing the HDAs, wiring **Source → Solver → Surface**, and getting the first droplets moving.
+It covers the condensation setup — wiring **Source → Solver → Surface** and getting the first droplets moving.
 
 ## Example scene
 
