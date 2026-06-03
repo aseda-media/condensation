@@ -2,11 +2,9 @@
 
 A Houdini condensation-droplet toolset by **Aseda Media**.
 
-Condensation is a set of Houdini Digital Assets (HDAs) that build, simulate, and mesh realistic condensation droplets on a collision surface.
+Am Condensation is a set of Houdini Digital Assets (HDAs) that build, simulate, and mesh realistic condensation droplets on a collision surface.
 
-> ℹ️ **Distributed as black-box (locked) HDAs.** The internals are not editable 
-
-The repository itself contains the public documentation, license, and issue templates. The `.hda` files are distributed from GitHub **Releases** so the repository stays lightweight.
+> ℹ️ **Distributed as black-box (locked) HDAs.** The internals are not editable.
 
 ## The toolset
 
@@ -17,12 +15,12 @@ The repository itself contains the public documentation, license, and issue temp
 | **am_Condensation_Surface** | Builds the final renderable geometry from Solver points: VDB / particle-fluid meshing, contact cutting, sag, mist, and wetmap output. |
 | **am_Condensation_Wetmap** | Generates a wetmap — a wetness texture from where the droplets have been — for shading and rendering. *(Optional, requires Houdini 21.0+.)* |
 
-Pipeline: **Source → Solver → Surface**.
+Pipeline: **Source → Solver → Surface → Wetmap**.
 
 ## Requirements
 
 - **Recommended: Houdini Indie 21.0**.
-- The core **Source**, **Solver**, and **Surface** HDAs are intended for Houdini **19.5+**, but use the release notes for each version as the compatibility source of truth.
+- The core **Source**, **Solver**, and **Surface** HDAs are intended for Houdini **19.5+**. 
 - The optional **Wetmap** component, if included, requires **Houdini 21.0 or newer**.
 
 ## Install
