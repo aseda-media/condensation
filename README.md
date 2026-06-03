@@ -37,6 +37,14 @@ Pipeline: **Source → Solver → Surface**.
 
 When reporting, please include your **Houdini build**, the **HDA + version**, and a screenshot or short clip — it makes issues much faster to act on.
 
+## A note from the author
+
+I built this droplet and condensation setup from the ground up, together with AI, based on what I learned while developing my first droplet system.
+
+It's fast, simple, and easy to use — and free for both personal and commercial projects.
+
+If you make something with it, tag **[@aseda_media](https://instagram.com/aseda_media)** on Instagram. I'd love to see what you create.
+
 ## License
 
 Free to use in your own personal and commercial projects. **Redistribution, re-hosting, or resale of the HDAs is not permitted.** See [LICENSE](LICENSE).
