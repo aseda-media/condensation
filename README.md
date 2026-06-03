@@ -4,7 +4,7 @@ A Houdini condensation-droplet toolset by **Aseda Media**.
 
 Condensation is a set of Houdini Digital Assets (HDAs) that build, simulate, and mesh realistic condensation droplets on a collision surface.
 
-> ℹ️ **Distributed as black-box (locked) HDAs.** The internals are not editable — drive the look through the exposed parameters.
+> ℹ️ **Distributed as black-box (locked) HDAs.** The internals are not editable 
 
 The repository itself contains the public documentation, license, and issue templates. The `.hda` files are distributed from GitHub **Releases** so the repository stays lightweight.
 
@@ -38,7 +38,9 @@ Pipeline: **Source → Solver → Surface**.
 
 ## Setup tutorial
 
-A simple YouTube setup tutorial is coming soon. It will cover installing the HDAs, wiring **Source → Solver → Surface**, and getting the first droplets moving.
+Watch the setup tutorial on YouTube: **https://youtu.be/E2IATNLHncA**
+
+It covers installing the HDAs, wiring **Source → Solver → Surface**, and getting the first droplets moving.
 
 ## Example scene
 
@@ -47,7 +49,6 @@ An example setup scene is included in [`scene/`](scene/):
 - `Setup_Scene.hiplc` — a simple Houdini Indie setup scene.
 - `geo/Can.obj` — the sample collision/support model used by the scene.
 
-> The scene is saved as `.hiplc` (Houdini Indie / Limited Commercial), so it opens in Houdini Indie or a commercial license. Houdini **Apprentice** cannot open `.hiplc` files.
 
 ## Basic workflow
 
