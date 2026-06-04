@@ -65,6 +65,7 @@ The HDAs are documented directly inside Houdini. Each node includes parameter la
 
 - `am_Condensation_Source` may appear under Houdini's **Digital Assets** tab-menu category instead of **aMLib ▸ Utils**.
 - When using the preset, set **am_Condensation_Surface ▸ Particle Scale ▸ Growing Scale** to `1`.
+- A **hero droplet** (a large, absorbing droplet) that starts very close to the bottom of the collision surface may repeat the falling pass and be deleted after the second run. *Workaround:* move the hero droplet slightly higher on the collision surface.
 
 ## Feedback & feature requests
 
